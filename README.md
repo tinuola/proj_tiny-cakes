@@ -10,8 +10,10 @@ Design a fully responsive (mobile, tablet, desktop) one-page e-commerce website.
 
 ### Tools
 
-* HTML5
-* CSS3
-* Bootstrap
+* HTML, CSS
 * Flexbox
-* Pixelmator
+* Bootstrap
+
+<br>
+
+_View other CodeTalk projects: &nbsp;[Pine Jewelry](https://tinuola.github.io/proj_pine-jewelry/), &nbsp;[Soon Food](https://tinuola.github.io/proj_soon-food/)_
