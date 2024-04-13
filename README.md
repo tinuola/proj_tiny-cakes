@@ -1,13 +1,14 @@
-# Tiny Cakes
+## Tiny Cakes
+
 ### A One-Page Website Project
 
 Design a fully responsive (mobile, tablet, desktop) one-page e-commerce website.
 
-#### Tools Used
+Live Site: [tinuola.github.io/proj_tiny-cakes/](https://tinuola.github.io/proj_tiny-cakes/)
+
+### Tools Used
 * HTML5
 * CSS3
 * Bootstrap
 * Flexbox
 * Pixelmator
-
-[Website Demo](https://tinuola.github.io/tiny-cakes)
