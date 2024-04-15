@@ -1,291 +1,298 @@
-
 /*Body and General styling*/
-body{
-	background: url(images/backgrounds/geometry2.png);
-	margin: 0 auto;
-	width: 100%;
+body {
+  background: url(images/backgrounds/geometry2.png);
+  margin: 0 auto;
+  width: 100%;
 }
 .section-title {
-	font-size: 25px;
-	font-family: 'Pacifico', cursive;
-	color: #6b5757;
+  font-size: 25px;
+  font-family: 'Pacifico', cursive;
+  color: #6b5757;
 }
 .section-text {
-	font-family: 'Abel', sans-serif;
-	font-size: 20px;
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
 }
 @media (min-width: 768px) {
-	.section-title {
-		font-size: 32px;
-	}
+  .section-title {
+    font-size: 32px;
+  }
 }
 
 /*Header Section: Logo, Nav Menu*/
 header {
-	padding-top: 15px;
-    padding-left: 15px;
-    padding-bottom: 1px;
-    margin-left: -15px;
-    margin-right: -15px;
-    background-color: rgba(124, 198, 122, 0.42);
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 1px;
+  margin-left: -15px;
+  margin-right: -15px;
+  background-color: rgba(124, 198, 122, 0.42);
 }
 .navbar-default {
-    background-color: transparent;
-    border-color: transparent;
+  background-color: transparent;
+  border-color: transparent;
 }
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: transparent;
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-    border-color: transparent;
+  border-color: transparent;
 }
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border-color: transparent;
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: transparent;
 }
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-	text-align: center;
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  text-align: center;
 }
 .menu-item {
-	font-size: 28px;
-	font-family: 'Pacifico', cursive;
+  font-size: 28px;
+  font-family: 'Pacifico', cursive;
 }
-.navbar-default .navbar-nav>li>a {
-	color: #6b5757;
+.navbar-default .navbar-nav > li > a {
+  color: #6b5757;
 }
-.navbar-default .navbar-nav>li>a:hover {
-	color: #fff;
+.navbar-default .navbar-nav > li > a:hover {
+  color: #fff;
 }
 @media (min-width: 992px) {
-	header {
-		padding-left: 30px;
-	    padding-right: 35px;
-	}
+  header {
+    padding-left: 30px;
+    padding-right: 35px;
+  }
 }
 
 /*Hero Image Section*/
 #hero-section {
-	background: url(images/cupcakes/cupcakes-bground-o.jpg) center no-repeat;
-	max-width: 100%;
-	height: 500px;
-	background-size: cover;
-	margin-top: -20px;
+  background: url(images/cupcakes/cupcakes-bground-o.jpg) center no-repeat;
+  max-width: 100%;
+  height: 500px;
+  background-size: cover;
+  margin-top: -20px;
 }
 #hero-text {
-	font-family: 'Pacifico', cursive;
-	font-size: 75px;
-	color: #fff;
-	text-align: center;
-	position: relative;
-    top: 140px;
+  font-family: 'Pacifico', cursive;
+  font-size: 75px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 140px;
 }
 @media (min-width: 768px) {
-	#hero-text {
-		font-size: 100px;
-	}
+  #hero-text {
+    font-size: 100px;
+  }
 }
-@media (min-width : 992px) {
-	#hero-text {
-		font-size: 120px;
-	}
- }
+@media (min-width: 992px) {
+  #hero-text {
+    font-size: 120px;
+  }
+}
 
 /*CTA Section*/
 #cta-section {
-	background-color: rgba(243, 238, 200, 0.42);
-	text-align: center;
-	padding-top: 20px;
-    padding-bottom: 20px;
-    margin-left: -15px;
-    margin-right: -15px;
+  background-color: rgba(243, 238, 200, 0.42);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 #cta-text {
-	font-family: 'Abel', sans-serif;
-	color: #f37a97;
-	font-size: 25px;
+  font-family: 'Abel', sans-serif;
+  color: #f37a97;
+  font-size: 25px;
 }
 @media (min-width: 768px) {
-	#cta-text{
-		font-size: 30px;
-	}
+  #cta-text {
+    font-size: 30px;
+  }
 }
 
 /*About Section*/
 #about-section {
-	margin-top: 20px;
-	margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .about-image-block {
-    text-align: center;
+  text-align: center;
 }
 .about-text-block {
-	padding-bottom: 10px;
-	padding-left: 20px;
-    padding-right: 35px;
-    padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 35px;
+  padding-top: 10px;
 }
 @media (min-width: 768px) {
-	#about-section {
-		display: flex;
-	    align-items: center;
-	    justify-content: center;
-	}
-	.about-text-block {
-		padding-left: 40px;
-	}
+  #about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-text-block {
+    padding-left: 40px;
+  }
 }
 
 /*History Section*/
 #history-section {
-	margin-top: 20px;
+  margin-top: 20px;
 }
 .history-image-block {
-	text-align: center;
+  text-align: center;
 }
 .history-text-block {
-	padding-bottom: 10px;
-	padding-left: 20px;
-    padding-right: 35px;
-    padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 35px;
+  padding-top: 10px;
 }
 @media (min-width: 768px) {
-	#history-section {
-		margin-top: 35px;
-	    display: flex;
-	    align-items: center;
-	    justify-content: center;
-	    margin-bottom: 25px;
-	}
-	.history-image-block {
-	}
-	.history-text-block {
-		padding-left: 40px;
-	}
+  #history-section {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  .history-image-block {
+  }
+  .history-text-block {
+    padding-left: 40px;
+  }
 }
 
 /*Product Gallery*/
 #cupcake-section {
-	font-family: 'Abel', sans-serif;
-	font-weight: bolder;
-	padding-left: 20px;
+  font-family: 'Abel', sans-serif;
+  font-weight: bolder;
+  padding-left: 20px;
 }
 .cupcake-image-block {
-	text-align: center;
-	margin-top: 10px;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 .product-text {
-	font-size: 20px;
-	padding-top: 10px;
+  font-size: 20px;
+  padding-top: 10px;
 }
 .shop-text {
-	font-size: 20px;
-	background-color: #f37a97;
-    color: #fff;
-    border-color: #fff;
+  font-size: 20px;
+  background-color: #f37a97;
+  color: #fff;
+  border-color: #fff;
 }
 .shop-text:hover {
-	color: #f37a97;
-	background-color: transparent;
-	border-color: #f37a97;
+  color: #f37a97;
+  background-color: transparent;
+  border-color: #f37a97;
 }
 @media (min-width: 768px) {
-	#cupcake-section {
-		margin-bottom: 20px;
-		padding-left: 40px;
-	}
-	#cupcake-title {
-		text-align: center;
-		font-size: 38px;
-	}
+  #cupcake-section {
+    margin-bottom: 20px;
+    padding-left: 40px;
+  }
+  #cupcake-title {
+    text-align: center;
+    font-size: 38px;
+  }
 }
 @media (min-width: 992px) {
-	#cupcake-section {
-		padding-left: 30px;
-		padding-right: 30px;
-		margin-bottom: 80px;
-	}
-	#cupcake-title {
-		margin-bottom: 15px;
-	}
+  #cupcake-section {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 80px;
+  }
+  #cupcake-title {
+    margin-bottom: 15px;
+  }
 }
 
 /*Press Section*/
 #press-section {
-	background-color: rgba(243, 238, 200, 0.42);
-	padding-top: 20px;
-    padding-bottom: 15px;
-    padding-left: 20px;
+  background-color: rgba(243, 238, 200, 0.42);
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 20px;
 }
 #press-text {
-	font-family: 'Pacifico', cursive;
-	color: #6b5757;
-	font-size: 25px;
+  font-family: 'Pacifico', cursive;
+  color: #6b5757;
+  font-size: 25px;
 }
 .press-logo-block {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 @media (min-width: 768px) {
-	#press-section {
-		padding-top: 40px;
-    	padding-bottom: 40px;
-	}
-	.press-logo-block {
-		display: block;
-	}
+  #press-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .press-logo-block {
+    display: block;
+  }
 }
 @media (min-width: 992px) {
-	#press-text {
-		text-align: center;
-		font-size: 32px;
-	}
+  #press-text {
+    text-align: center;
+    font-size: 32px;
+  }
 }
 
 /*Contact Section*/
 #contact-section {
-	background-color: rgba(124, 198, 122, 0.42);
-	font-family: 'Abel', sans-serif;
-	color: #6b5757;
-	padding-left: 20px;
-	padding-top: 25px;
-	padding-bottom: 15px;
+  background-color: rgba(124, 198, 122, 0.42);
+  font-family: 'Abel', sans-serif;
+  color: #6b5757;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 15px;
 }
 .social-icons-block {
-	display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 .feedback-block {
-	padding-top: 20px;
-    text-align: center;
+  padding-top: 20px;
+  text-align: center;
 }
 #feedback-text {
-	font-size: 25px;
-	line-height: 1.1;
+  font-size: 25px;
+  line-height: 1.1;
 }
 #feedback-email {
-	font-size: 23px;
+  font-size: 23px;
 }
-#feedback-email a:active, a {
-	color: #6b5757;
-	text-decoration: none;
+#feedback-email a:active,
+a {
+  color: #6b5757;
+  text-decoration: none;
 }
 #feedback-email a:hover {
-	color: #fff;
-	text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 .copyright-block {
-	padding-top: 20px;
-	text-align: center;
+  padding-top: 20px;
+  text-align: center;
 }
 .copyright-text {
-	font-size: 15px;
-	line-height: .5;
+  font-size: 15px;
+  line-height: 0.5;
+}
+.copyright-text a {
+  text-decoration: underline;
 }
 @media (min-width: 992px) {
-	#contact-section {
-		padding-top: 30px;
-	}
-	.copyright-text {
-		line-height: 1;
-	}
+  #contact-section {
+    display: flex;
+    align-items: center;
+  }
+  .copyright-text {
+    line-height: 1;
+  }
 }
